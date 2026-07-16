@@ -112,7 +112,7 @@ Power BI is used to present the results through interactive charts and KPIs.
 
 # 📈 Power BI Dashboard
 
-<img src="images/report.png" width="70%">
+<img src="images/report.png" width="100%">
 
 <br>
 
