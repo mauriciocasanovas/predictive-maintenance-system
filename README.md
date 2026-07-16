@@ -1,4 +1,4 @@
-# 🚜 Predictive Maintenance System
+## 🚜 Predictive Maintenance System
 
 <p align="center">
 
@@ -11,7 +11,7 @@
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 Predictive Maintenance System is an end-to-end Machine Learning project that simulates predictive maintenance for agricultural machinery.
 
@@ -21,7 +21,7 @@ The objective is to demonstrate a complete Data Science workflow, from data gene
 
 ---
 
-# 💼 Business Problem
+## 💼 Business Problem
 
 Unexpected machinery failures can interrupt agricultural operations, increase maintenance costs, reduce productivity, and generate unnecessary downtime.
 
@@ -31,7 +31,7 @@ This project simulates that scenario by predicting high-risk machines based on o
 
 ---
 
-# 🛠 Technology Stack
+## 🛠 Technology Stack
 
 | Category | Technologies |
 |-----------|--------------|
@@ -45,13 +45,13 @@ This project simulates that scenario by predicting high-risk machines based on o
 
 ---
 
-# 📊 Dataset
+## 📊 Dataset
 
 A synthetic dataset was generated using Python to simulate agricultural machinery operating under different conditions.
 
 The dataset contains **1,000 machine records**.
 
-### Features
+#### Features
 
 | Feature | Description |
 |----------|-------------|
@@ -68,49 +68,49 @@ The target variable is generated according to predefined sensor thresholds, crea
 
 ---
 
-# 🔬 Machine Learning Pipeline
+## 🔬 Machine Learning Pipeline
 
 The project follows a complete Machine Learning workflow.
 
-### 1. Synthetic Dataset Generation
+#### 1. Synthetic Dataset Generation
 
 Machine operating data is generated using NumPy to simulate real sensor measurements.
 
-### 2. Data Preparation
+#### 2. Data Preparation
 
 Relevant sensor variables are selected as input features.
 
-### 3. Train/Test Split
+#### 3. Train/Test Split
 
 The dataset is divided into training and testing subsets using an 80/20 split.
 
-### 4. Model Training
+#### 4. Model Training
 
 A Random Forest classifier is trained to predict machine failures.
 
-### 5. Model Evaluation
+#### 5. Model Evaluation
 
 The model is evaluated using the Scikit-Learn classification report.
 
-### 6. Feature Importance
+#### 6. Feature Importance
 
 Feature importance is calculated to identify which sensors contribute most to failure prediction.
 
-### 7. Failure Prediction
+#### 7. Failure Prediction
 
 Predictions are generated for all machines, identifying those considered at high risk.
 
-### 8. Report Generation
+#### 8. Report Generation
 
 Results are automatically exported to Excel and TXT files for business reporting.
 
-### 9. Dashboard Visualization
+#### 9. Dashboard Visualization
 
 Power BI is used to present the results through interactive charts and KPIs.
 
 ---
 
-# 📈 Power BI Dashboard
+## 📈 Power BI Dashboard
 
 <img src="images/report.png" width="100%">
 
@@ -133,7 +133,7 @@ Project files:
 
 ---
 
-# 📄 Generated Reports
+## 📄 Generated Reports
 
 After running the pipeline, the following reports are automatically generated:
 
@@ -145,7 +145,7 @@ After running the pipeline, the following reports are automatically generated:
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 predictive-maintenance-system/
@@ -173,7 +173,7 @@ predictive-maintenance-system/
 
 ---
 
-# 🚀 Installation
+## 🚀 Installation
 
 Clone the repository:
 
@@ -195,7 +195,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Usage
+## ▶️ Usage
 
 Generate the synthetic dataset:
 
@@ -220,7 +220,7 @@ Open the Power BI dashboard to explore the results visually.
 
 ---
 
-# 📈 Results
+## 📈 Results
 
 The project demonstrates how Machine Learning can support predictive maintenance by identifying machinery with a higher probability of failure before an actual breakdown occurs.
 
@@ -233,7 +233,7 @@ The generated dashboard provides a business-friendly overview of:
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Mauricio Javier Casanovas Juárez**
 
