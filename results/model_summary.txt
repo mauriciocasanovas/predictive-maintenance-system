@@ -1,0 +1,27 @@
+====================================================
+PREDICTIVE MAINTENANCE REPORT
+====================================================
+
+Total machines analyzed: 1000
+Machines predicted at risk: 503
+
+FEATURE IMPORTANCE RANKING
+----------------------------------------------------
+- Engine_Temperature: 40.44%
+- Vibration: 32.94%
+- Oil_Pressure: 24.22%
+- Operating_Hours: 1.55%
+- Machine_Age: 0.84%
+
+MODEL PERFORMANCE
+----------------------------------------------------
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        98
+           1       1.00      1.00      1.00       102
+
+    accuracy                           1.00       200
+   macro avg       1.00      1.00      1.00       200
+weighted avg       1.00      1.00      1.00       200
+
+====================================================
